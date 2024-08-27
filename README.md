@@ -18,8 +18,9 @@ http://localhost:8080/message
 
 ![image](https://github.com/user-attachments/assets/6aad7e12-247d-4059-8dd0-657bd78b04d3)
 
-Reload run time 
+**-->Change config on github and Reload run time without client restart**
 Roshan@DESKTOP-OFN2VVE MINGW64 /d/CODE_SPACES
+
 $ curl --location --request POST 'http://localhost:8080/actuator/refresh'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
