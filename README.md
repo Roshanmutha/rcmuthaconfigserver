@@ -18,4 +18,14 @@ http://localhost:8080/message
 
 ![image](https://github.com/user-attachments/assets/6aad7e12-247d-4059-8dd0-657bd78b04d3)
 
-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
+Change config on github and Reload run time without client restart**
+Roshan@DESKTOP-OFN2VVE MINGW64 /d/CODE_SPACES
+
+$ curl --location --request POST 'http://localhost:8080/actuator/refresh'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    39    0    39    0     0     14      0 --:--:--  0:00:02 --:--:--    14["config.client.version","auther.name"]
+
+Refresh url:
+![image](https://github.com/user-attachments/assets/4e3ae895-ee43-4b34-a614-d4e9a63faa31)
+
