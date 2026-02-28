@@ -17,3 +17,5 @@ Client app using properties:
 http://localhost:8080/message
 
 ![image](https://github.com/user-attachments/assets/6aad7e12-247d-4059-8dd0-657bd78b04d3)
+
+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
